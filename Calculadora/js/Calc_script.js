@@ -22,7 +22,7 @@ const percente = (n1, operator, n2) => {
   if (n1 <= 0) return 0
 }
 
-// função para calcular riz quadrada
+// função para calcular raiz quadrada
 const raiz = (n1) => {
   const primValor = parseFloat(n1)
   var rq = ''
@@ -39,10 +39,6 @@ const calculator = document.querySelector('.calculator')
 const keys = calculator.querySelector('.calculator--keys')
 const display = document.querySelector('.calculator--display')
 
-// As variaveis acima são para chamar as classe no arquvivo html **
-// '.calculator' é a classe da div que incorpora toda a as outras
-// '.calculator--keys' é a classe da div que incorpora as partes dos botões da calculadora
-// '.calculator--diplay' é a classe da div que incorpora a parte so display
 
 keys.addEventListener('click', e => {
   if (e.target.matches('button')) {
@@ -76,10 +72,7 @@ keys.addEventListener('click', e => {
       calculator.dataset.previousKeyType = 'number'
     }
 
-    //if (action === 'decimal') {
-    //display.textContent = displayedNum + '.'
 
-    //} // Não precizamos mais 
 
 
 
@@ -128,7 +121,6 @@ keys.addEventListener('click', e => {
 
       key.classList.add('is-depressed') // Marcar a tecla de operador, muda o foco
       calculator.dataset.previousKeyType = 'operator'
-      //calculator.dataset.firstValue = displayedNum "não usamos mais esta condição depois da atualização de calcular valores usando teclas de operador"
       calculator.dataset.operator = action
 
     }
