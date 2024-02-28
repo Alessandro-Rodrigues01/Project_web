@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/Style_timeControl.css">
+	<link rel="stylesheet" href="style/animation.css">
+	<link rel="stylesheet" href="style/tooltip.css">
+	<link href="ICONI/Temporizador-2.bmp" rel="icon">
+	<title>Time_control</title>
+</head>
+
+<body>
+	<div class="container">
+
+		<div class="calculator">
+			<div class="titulo">
+				<div class="container2">
+					<div class="ring"></div>
+					<div class="ring"></div>
+					<div class="ring"></div>
+					<p> Time control !!</p>
+				</div>
+			</div>
+
+			<div class="contTempo">
+				<label class="time--entrada">Para controlar seu tempo:</label>
+				<label class="datas">
+					<p>Informe a data: &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Digite a hora da entrada:</p>
+				</label>
+				<input type="date" class="calculator--data" required>
+
+
+				<input type="time" class="calculator--entra2" required>
+
+				<label class="opcaoTurno">
+					<p>Escolha um turno: &nbsp &nbsp &nbsp &nbsp &nbsp Escolha uma porcentagem: </p>
+				</label>
+
+				<select class="escohleTurno" name="selecionaTurno" required>
+					<option disabled selected value="0">--Escolha uma opção--</option>
+					<option value="09">A.D.M</option>
+					<option value="12">Escala</option>
+					<option value="08">Noite</option>
+					<option value="07">Turno(1º|2º)</option>
+				</select>
+
+				<select class="escohlePorcent" name="selecionaPorcent" required>
+					<option disabled selected value="0">--Escolha a Porcentagem--</option>
+					<option value="65">65%</option>
+					<option value="100">100%</option>
+				</select>
+
+				<label class="salario">
+					<p>Digite seu salário:</p>
+				</label>
+				<input placeholder="Ex: 2000,39" class="calculator--salario"
+					oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+					type="password" maxlength="11" required>
+
+
+
+				<label class="switch">
+					<span class="switch--2">Hora extra:</span>
+					<div class="switch-wrapper">
+						<input type="checkbox" class="switch-check" name="checkbox-switch" value="check">
+						<span class="switch--button"></span>
+					</div>
+				</label>
+				<span class="tooltip"
+					data-text="Habilite este botão se desejar somente contar hora extra!">&#x1F6C8;</span>
+
+				<p><label id="demo4"></label></p>
+
+				<p></p>
+				<label class="time--expediente">Final do expediente:</label>
+
+				<label id="demo3"></label>
+
+				<p></p>
+				<label class="time--restante">Tempo restante:</label>
+
+				<div id="demo">
+					<div class="clockBox" id="day"><b>00</b></div>
+					<div class="clockBox" id="hour"><b>00</b></div>
+					<div class="clockBox" id="minute"><b>00</b></div>
+					<div class="clockBox" id="second"><b>00</b></div>
+				</div>
+
+				<p></p>
+				<label id="demo5"></label>
+
+				<label id="demo2--1"> </label>
+				<p id="demo2"></p>
+
+
+				<div class="time--keys">
+					<button id="myBtn" class="startTime" data-action="start-hora">Start-Time</button>
+					<button class="refreshLimpar" data-action="clear-time">Refresh/Limpar</button>
+				</div>
+				<label id="dataHora"></label>
+			</div>
+
+
+		</div>
+		<footer class="rodape">
+			<h4>Autor @Alessandro Rodrigues!!</h4>
+		</footer>
+	</div>
+	<script type="text/javascript" src="js/timeControl_script.js"></script>
+</body>
+
+</html>
