@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/calendar_icon_192645.png">
+    <link rel="stylesheet" href="style/Style_escala.css">
+    <link rel="stylesheet" href="style/tooltip.css">
+
+    <title>Contador[Escala-de-trabalho]</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="calculator">
+            <label class="titulo">
+                <p>Contador de escala 12 X 36!!</p>
+            </label>
+
+            <p><label class="inpData">Digite uma data:</label></p>
+            <input class="data" id="data2" type="date">
+
+            <p><label class="opEscala">Escolha uma opção de escala:</label></p>
+            <select class="escohleEscala" name="selecionaEscala" required>
+                <option disabled selected value="0">--Escolha uma opção--</option>
+                <option value="01">Escala-01</option>
+                <option value="02">Escala-02</option>
+            </select>
+            <span class="tooltip"
+                data-text="Para saber qual é sua escala, basta escolher uma opção que coicida com seu dia atual!">&#x1F6C8;</span>
+            <p></p>
+            <label class="result">Resultado:&#128071;</label>
+            <div class="cont--display" id="display"></div>
+
+            <button class="key--equals botao" data-action="calculate">Executar</button>
+            <button class="refreshLimpar botao" data-action="clear">Limpar</button>
+
+
+
+        </div>
+        <footer class="rodape">
+            <h4>Autor @Alessandro Rodrigues!!</h4>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/escala_script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/Style_Tabuada.css">
+    <title>Tabuada</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="calculator">
+            <label class="titulo">
+                <p>Tabuada!!</p>
+            </label>
+
+            <form class="cont">
+                <label class="primeiroValor">Digite a tabuada:</label>
+                <input placeholder="Entre com um valor" class="cont--primValor"
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    type="number" maxlength="6" required>
+
+                <label class="seg-Valor">
+                    <p>Digite até quantos quer calcular:</p>
+                </label>
+                <input placeholder="Entre com um valor" class="cont--segValor"
+                    oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                    type="number" maxlength="6" required>
+
+
+                <label class="result">Resultado: &#128513; &#128561;</label>
+                <div class="cont--display"></div>
+            </form>
+            <div class="calculator--keys">
+                <button data-action="clear">Limpar</button>
+                <button class="key--equals" data-action="calculate">Executar</button>
+            </div>
+
+        </div>
+        <footer class="rodape">
+            <h4>Autor @Alessandro Rodrigues!!</h4>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/Tabuada_script.js"></script>
+</body>
+
+</html>

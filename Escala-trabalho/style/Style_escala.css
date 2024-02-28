@@ -1,0 +1,243 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    color: blueviolet;
+}
+
+embed,
+iframe,
+img,
+object,
+video {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 h5,
+h6,
+ul,
+ol,
+li,
+p,
+pre,
+blockquote,
+figure,
+hr {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4 h5,
+h6 {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+input,
+textarea,
+button {
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    outline: none;
+    appearance: none;
+    text-align: left;
+}
+
+input:hover,
+input:active,
+input:focus,
+textarea:hover,
+textarea:active,
+textarea:focus,
+button:hover,
+button:active,
+button:focus {
+    outline: none;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    --primary-color: #4F4F4F;
+}
+
+html {
+    font-size: 175%;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+body {
+    align-items: center;
+    background-image: url(../img/tendencias-03.jpg);
+    line-height: 1;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    background-size: 100%;
+}
+
+.container {
+    max-width: 19em;
+}
+
+.container>p {
+    text-align: center;
+}
+
+.titulo {
+    font-family: Times, Times New Roman, serif;
+    color: #000080;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline dashed #1C1C1C;
+    padding: 0.2em 0.2em;
+}
+
+
+.calculator {
+    height: auto;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, #FF7F50, lavender);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.cont--display {
+    background-color: #FFF0F5;
+    color: #0000FF;
+    font-size: 18px;
+    padding: 0.8em 0.75em;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 17px;
+    font-weight: bold;
+    border-width: 2px 4px 2px 4px;
+    border-style: dashed;
+    border-color: #000 #090 #900 #009;
+    padding: 20px;
+}
+
+
+
+
+.inpData,
+.opEscala {
+    color: #1C1C1C;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.result {
+    color: #FF0000;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+.cont {
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 20px;
+}
+
+.data {
+    background-color: aliceblue;
+    padding: 4.5px 1px 7px;
+    font-size: 13px;
+    border: 1.5px solid #4169E1;
+    margin-bottom: 18px;
+    margin-left: 3px;
+    margin-right: 65px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+.escohleEscala {
+    background-color: aliceblue;
+    padding: 4.5px 1px 7px;
+    font-size: 13px;
+    border: 1.5px solid #4169E1;
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.botao {
+    text-transform: uppercase;
+    transition: .25s;
+    cursor: pointer;
+    padding: 0.4em 0.90em;
+    text-align: center;
+    color: #F8F8FF;
+    margin-bottom: 25px;
+    margin-left: 23px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: .1rem solid #708090;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+.botao:hover {
+    transform: translate(0, .22rem);
+    transition: .25s;
+}
+
+.key--equals {
+    background-image: linear-gradient(to bottom, #FF0000, #F4A460);
+}
+
+.refreshLimpar {
+    background-image: linear-gradient(to bottom, #ffffff, #0059ff);
+}
+
+
+.rodape {
+    text-align: center;
+    color: #F0F8FF;
+    margin-top: 2em;
+}
