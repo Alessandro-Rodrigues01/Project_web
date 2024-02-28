@@ -46,7 +46,6 @@ const display = document.querySelector('.calculator--display')
 
 keys.addEventListener('click', e => {
   if (e.target.matches('button')) {
-    // alert('fui submetido')
 
 
     const key = e.target
