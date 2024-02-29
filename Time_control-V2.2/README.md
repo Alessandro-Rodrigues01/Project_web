@@ -9,11 +9,25 @@ Big Game Survey é uma aplicação full stack web e mobile construída durante a
 
 A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/Tela-inicial.png)
+
+## Projeto em execução
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/projeto-em-execucao.png)
+
+## Informações do botão checkbox
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/projeto-em-execucao-2.png)
+
+## Checkbox acionado
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/checkBoxAcionado.png)
+
+
+## Tempo esgotado
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/tempo-esgotado.png)
+
+
+
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
