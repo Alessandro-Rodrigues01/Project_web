@@ -14,6 +14,12 @@ Temos opções de turnos:
  ira calcular a hora extra desde o início.
  Se for controlar o tempo corrido durante o expediente, o cálculo acontece quando zerar o time.
 
+## O programa funciona da seguinte forma:
+O usuário tera que fornecer as inforamções referente ao seu expediente de trabalho, preenchendo os campos corretamente como data do dia, hora de entrada, turno, porcentagem (65% ou 100%) e o sálario, no campo salarário fica oculto por questões de privacidade.
+Assim que for precionado o botão "start time" um poup up é acionado para verificação dos dados, se estiver ok click em OK ou em cancelar para corrigir os campos.
+Se esquecer de preencher um campo o programa não executa e emite uma mensagem de campo sem preenchimento, para  refazer clicar em Refresh/Limpar. 
+Depois que o programa for executado todos os campos e o botão "Start time" fica inibido, não é possivel fazer alteração nos dados em estado de execução, ecxeto os botões  checkbox "Hora extra" e "Refresh Limpar".
+
 
 ## Layout web
 ![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/Tela-inicial.png)
