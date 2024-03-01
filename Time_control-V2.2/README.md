@@ -2,15 +2,16 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/LICENSE) 
 
 # Sobre o projeto
-O projeto foi desenvolvido para rodar em computador local dentro de uma organizção, com intuito  de controlar o tempo de trabalho dos colaboradores, visando emitir alerta visual assim que o tempo utrapssar os vinte minutos para o termino do expediente.
+O projeto foi desenvolvido para rodar em computador local dentro de uma organizção, com intuito  de controlar o tempo de trabalho dos colaboradores, visando emitir alerta visual assim que o tempo ultrapassar os vinte minutos para o termino do expediente.
 Temos opções de turnos:
 - ADM
 - Noturno
 - Escala
 - Turnos 1º/2º
   Ambos tem suas peculiaridades de horas trabalhadas.
-  Se o funcionario foi trbalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que ira calcular a hora extra desde o inicio.
-Se for controlar o tempo corrido durante o expediente, o cálculo acontece quando zerar o time.
+  Se o funcionario foi trbalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que 
+ ira calcular a hora extra desde o início.
+ Se for controlar o tempo corrido durante o expediente, o cálculo acontece quando zerar o time.
 
 
 ## Layout web
@@ -25,6 +26,8 @@ Se for controlar o tempo corrido durante o expediente, o cálculo acontece quand
 ## Checkbox acionado
 ![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/checkBoxAcionado.png)
 
+## Tempo esgotando
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/Tempo-esgotando.png)
 
 ## Tempo esgotado
 ![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/assets/tempo-esgotado.png)
