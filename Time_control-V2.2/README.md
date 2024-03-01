@@ -37,7 +37,7 @@ Temos opções de turnos:
 # Tecnologias utilizadas
 ## Back end
 - JavaScript
-- 
+  
 ## Front end
 - HTML / CSS
 
