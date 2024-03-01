@@ -2,12 +2,15 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/LICENSE) 
 
 # Sobre o projeto
-
-https://wmazoni-sds1.netlify.app
-
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
-
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+O projeto foi desenvolvido para rodar em computador local dentro de uma organizção, com intuito  de controlar o tempo de trabalho dos colaboradores, visando emitir alerta visual assim que o tempo utrapssar os vinte minutos para o termino do expediente.
+Temos opções de turnos:
+- ADM
+- Noturno
+- Escala
+- Turnos 1º/2º
+  Ambos tem suas peculiaridades de horas trabalhadas.
+  Se o funcionario foi trbalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que ira calcular a hora extra desde o inicio.
+Se for controlar o tempo corrido durante o expediente, o cálculo acontece quando zerar o time.
 
 
 ## Layout web
@@ -32,7 +35,7 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - JavaScript
 - 
 ## Front end
-- HTML / CSS/
+- HTML / CSS
 
 
 # Como executar o projeto
@@ -42,34 +45,16 @@ Pré-requisitos: Navegadores atualizados, Firefox, Google Chrome, Microsoft Edge
 
 ```bash
 # clonar repositório
-git clone https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Time_control-V2.2/Index_timeControl-V2.2.html
+git clone https://github.com/Alessandro-Rodrigues01/Project_web/tree/main/Time_control-V2.2
 
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
+# entrar na pasta do projeto Time_control-V2.2
+cd Time_control-V2.2
 
 # executar o projeto
-yarn start
+executando o arquivo .html
 ```
 
 # Autor
+Alessandro Rodrigues
 
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/alessandro-rodrigues-a73b50246/
