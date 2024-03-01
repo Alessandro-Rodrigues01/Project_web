@@ -8,6 +8,7 @@ Temos opções de turnos:
 - Noturno
 - Escala
 - Turnos 1º/2º
+  
   Ambos tem suas peculiaridades de horas trabalhadas.
   Se o funcionario foi trbalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que 
  ira calcular a hora extra desde o início.
