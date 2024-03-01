@@ -2,7 +2,7 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/LICENSE) 
 
 # Sobre o projeto
-O projeto foi desenvolvido para rodar em computador local dentro de uma organização, com intuito de controlar o tempo de trabalho dos colaboradores, visando emitir alerta visual assim que o tempo ultrapassar os vinte minutos para o termino do expediente.
+O projeto foi desenvolvido para rodar em ambiente local dentro de uma organização, com intuito de controlar o tempo de trabalho dos colaboradores, visando emitir alerta visual assim que o tempo ultrapassar os vinte minutos para o termino do expediente.
 Temos opções de turnos:
 
 - ADM
