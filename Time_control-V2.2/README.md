@@ -10,7 +10,7 @@ Temos opções de turnos:
 - Turnos 1º/2º
   
   Ambos tem suas peculiaridades de horas trabalhadas.
-  Se o funcionario foi trbalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que 
+  Se o funcionario for trabalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que 
  ira calcular a hora extra desde o início.
  Se for controlar o tempo corrido durante o expediente, o cálculo acontece quando zerar o time.
 
