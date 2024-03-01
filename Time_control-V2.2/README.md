@@ -2,23 +2,25 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/LICENSE) 
 
 # Sobre o projeto
-O projeto foi desenvolvido para rodar em computador local dentro de uma organizção, com intuito  de controlar o tempo de trabalho dos colaboradores, visando emitir alerta visual assim que o tempo ultrapassar os vinte minutos para o termino do expediente.
+O projeto foi desenvolvido para rodar em computador local dentro de uma organização, com intuito de controlar o tempo de trabalho dos colaboradores, visando emitir alerta visual assim que o tempo ultrapassar os vinte minutos para o termino do expediente.
 Temos opções de turnos:
+
 - ADM
 - Noturno
 - Escala
 - Turnos 1º/2º
   
-  Ambos tem suas peculiaridades de horas trabalhadas.
-  Se o funcionario for trabalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que 
+  Ambos têm suas peculiaridades de horas trabalhadas.
+  Se o funcionário for trabalhar em regime de hora extra e quer somente contar hora extra, ele aciona o checkbox da hora extra que 
  ira calcular a hora extra desde o início.
  Se for controlar o tempo corrido durante o expediente, o cálculo acontece quando zerar o time.
 
 ## O programa funciona da seguinte forma:
-O usuário tera que fornecer as inforamções referente ao seu expediente de trabalho, preenchendo os campos corretamente como data do dia, hora de entrada, turno, porcentagem (65% ou 100%) e o sálario, no campo salarário fica oculto por questões de privacidade.
-Assim que for precionado o botão "start time" um poup up é acionado para verificação dos dados, se estiver ok click em OK ou em cancelar para corrigir os campos.
-Se esquecer de preencher um campo o programa não executa e emite uma mensagem de campo sem preenchimento, para  refazer clicar em Refresh/Limpar. 
-Depois que o programa for executado todos os campos e o botão "Start time" fica inibido, não é possivel fazer alteração nos dados em estado de execução, ecxeto os botões  checkbox "Hora extra" e "Refresh Limpar".
+O usuário terá que fornecer as informações referente ao seu expediente de trabalho, preenchendo os campos corretamente como data do dia, hora de entrada, turno, porcentagem (65% ou 100%) e o salário, no campo salário fica oculto por questões de privacidade.
+Assim que for pressionado o botão "start time" um poup up é acionado para verificação dos dados, se estiver ok click em OK ou em cancelar para corrigir os campos.
+Se esquecer de preencher um campo o programa não executa e emite uma mensagem de campo sem preenchimento, para refazer clicar em Refresh/Limpar. 
+Depois que o programa for executado todos os campos e o botão "Start time" fica inibido, não é possível fazer alteração nos dados em estado de execução, exceto os botões checkbox "Hora extra" e "Refresh Limpar".
+No rodapé da aplicação temos a informação da data/hora atual em formato "week, day, month, year".
 
 
 ## Layout web
