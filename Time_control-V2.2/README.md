@@ -52,7 +52,7 @@ No rodapé da aplicação temos a informação da data/hora atual em formato "we
 
 # Como executar o projeto
 
-## Back end
+## Back end/Front end
 Pré-requisitos: Navegadores atualizados, Firefox, Google Chrome, Microsoft Edge, opera e safari
 
 ```bash
