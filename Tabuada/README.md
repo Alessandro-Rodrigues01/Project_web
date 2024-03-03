@@ -30,7 +30,7 @@ Pré-requisitos: Navegadores atualizados, Firefox, Google Chrome, Microsoft Edge
 # clonar repositório
 git clone https://github.com/Alessandro-Rodrigues01/Project_web/tree/main/Tabuada
 
-# entrar na pasta do projeto 
+# entrar na pasta do projeto Tabuada
 cd Calculadora Tabuada
 
 # executar o projeto
