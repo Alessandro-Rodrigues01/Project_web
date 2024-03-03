@@ -1,8 +1,8 @@
-# Escala de trabalho 12/36
+# Escala de trabalho 12 x 36
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/LICENSE) 
 
 # Sobre o projeto
-O projeto foi desenvolvido para uso pessoal e para os colegas de equipe, trabalhávamos em regime de escala 12/36, a escala funciona da seguinte forma:                                              
+O projeto foi desenvolvido para uso pessoal e para os colegas de equipe, trabalhávamos em regime de escala 12 x 36, a escala funciona da seguinte forma:                                              
 Escala 01 trabalha: segunda-feira, quarta-feira, sexta-feira, sábado e domingo.                                                                                                                     
 Escala 02 trabalha: terça-feira e quinta-feira.                                                                                                                                                     
 Sendo assim vai intercalando semanalmente, como ficava difícil ficar contando o dia da folga para marcar um compromisso de curta e longa data, até mesmo uma consulta, foi desenvolvido essa ferramenta que prevê exatamente se o dia que o usuário inserir vai ser dia de trabalho ou folga.
