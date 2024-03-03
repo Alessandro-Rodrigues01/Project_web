@@ -3,7 +3,7 @@
 
 # Sobre o projeto
 O projeto foi desenvolvido com intuito de desafio pessoal para aprimoramento e desenvolvimento pessoal.
-O programa funciona com base na contagem escolhida pelo usuário, se o usuário escolher uma contagem progressiva devera inserir o primeiro valor menor que o ultimo, exemplo de "0 a 10", se optar por contagem regressiva devera inserir o maior valor primeiro e o menor por último exemplo de "100 a 0".
+O programa funciona com base na contagem escolhida pelo usuário, se o usuário escolher uma contagem progressiva devera inserir o primeiro valor menor que o ultimo, exemplo de "0 a 10", se optar por contagem regressiva devera inserir o maior valor primeiro e o menor por último, exemplo de "100 a 0".
 Campo intervalo, se não for preenchido o programa reconhece como intervalo de 1 em 1.
 
 
