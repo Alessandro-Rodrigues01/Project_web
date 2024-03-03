@@ -35,7 +35,7 @@ Pré-requisitos: Navegadores atualizados, Firefox, Google Chrome, Microsoft Edge
 # clonar repositório
 git clone https://github.com/Alessandro-Rodrigues01/Project_web/tree/main/Escala-trabalho
 
-# entrar na pasta do projeto Contador
+# entrar na pasta do projeto Escala-trabalho
 cd Escala-trabalho
 
 # executar o projeto
