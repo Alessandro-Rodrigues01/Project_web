@@ -106,7 +106,7 @@ body {
 }
 
 .container {
-    max-width: 20em;
+    max-width: 15em;
 }
 
 container>p {
@@ -114,20 +114,21 @@ container>p {
 }
 
 .titulo {
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    color: #2f4f42;
+    font-family: Times, Times New Roman, serif;
+    color: #000080;
     text-align: center;
     font-weight: bold;
     padding: 0.2em 0.2em;
+    text-decoration: underline dashed red;
 }
 
 
 .calculator {
     height: auto;
-    width: 650;
+    width: 400;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to bottom, #FFB6C1, lavender);
+    background-image: linear-gradient(to bottom, #FF7F50, #DCDCDC);
     box-shadow: 15px 30px 15px var(--primary-color);
     border-radius: 15px;
     overflow: hidden;
@@ -142,42 +143,42 @@ container>p {
     font-weight: bold;
 }
 
-.calculator--keys {
-    background-color: #999;
-    display: grid;
-    grid-gap: 1px;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: Comic Sans MS, Comic Sans, cursive;
-}
 
-.calculator--keys>* {
-    background-image: linear-gradient(to bottom, #ffffff, #0059ff);
-    padding: 0.7em 0.50em;
-    position: relative;
+.botao {
+    text-transform: uppercase;
+    transition: .25s;
+    cursor: pointer;
+    padding: 0.4em 0.90em;
     text-align: center;
-    color: #2f4f42;
+    color: #F8F8FF;
+    margin-bottom: 25px;
+    margin-left: 23px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: .1rem solid #708090;
+    font-family: Helvetica, sans-serif;
+    font-size: 25px;
+
 }
 
-.calculator--keys>*:active::before,
-.calculator--keys>.is-depressed::before {
-    background-color: rgba(0, 0, 0, 0.2);
-    bottom: 0;
-    box-shadow: 0 0 6px 0 rgb(0, 0, 0.5) inset;
-    content: "";
-    left: 0;
-    opacity: 0.3;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 1;
+.botao:hover {
+    transform: translate(0, .22rem);
+    transition: .25s;
 }
 
+.key--equals {
+    background-image: linear-gradient(to bottom, #FF0000, #F4A460);
+}
+
+.clear {
+    background-image: linear-gradient(to bottom, #ffffff, #0059ff);
+}
 
 .primeiroValor,
 .segundoValor,
 .intervalo,
 .result {
-    color: #006400;
+    color: #1C1C1C;
     font-size: 23px;
     font-family: 'Times New Roman', Times, serif;
     padding: 0.2em 0.2em;
@@ -191,30 +192,18 @@ container>p {
 }
 
 
-
-
-
 .cont--primValor,
 .cont--segValor,
 .cont--intervalo {
     background-color: aliceblue;
+    padding: 4px 1px 7px;
     padding-left: 15px;
-    padding-right: 105px;
-    border: 2px solid gray;
-    margin-bottom: 30px;
+    padding-right: 45px;
+    border: 1.5px solid #00BFFF;
+    margin-bottom: 18px;
+    font-size: 16px;
+    display: block;
 }
-
-
-
-
-
-.key--equals {
-    background-image: linear-gradient(to bottom, #FA8072, #F4A460);
-    grid-column: -2;
-    grid-row: 1.2 /span 4;
-    color: #2f4f42;
-}
-
 
 .rodape {
     text-align: center;

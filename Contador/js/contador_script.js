@@ -62,14 +62,6 @@ keys.addEventListener('click', e => {
     }
 
 
-    /*
-    // Codigo para limpar o ultimo numero dovisor // Ficara AC e para zerar tem que apertar mais umavez
-    if (action !== 'clear'){
-      const clearButton = calculator.querySelector('[data-action=clear]')
-      clearButton.textContent = 'limp/Display'
-    }
-    */
-
     //Codigo para limpar o diplay
     if (action === 'clear') {
       // console.log('clear key')
@@ -85,8 +77,6 @@ keys.addEventListener('click', e => {
 
 
 
-
-    // Codigo para calcular ao acionar a tecla de igual '='
     if (action === 'calculate') {
       let primValue = primV
       let segValue = segV

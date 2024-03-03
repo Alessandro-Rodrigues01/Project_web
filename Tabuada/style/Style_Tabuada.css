@@ -106,7 +106,7 @@ body {
 }
 
 .container {
-    max-width: 20em;
+    max-width: 17em;
 }
 
 container>p {
@@ -125,10 +125,10 @@ container>p {
 
 .calculator {
     height: auto;
-    width: 650;
+    width: 450;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to bottom, #FF00FF, #FAFAD2);
+    background-image: linear-gradient(to bottom, #3CB371, #FAFAD2);
     box-shadow: 15px 30px 15px var(--primary-color);
     border-radius: 15px;
     overflow: hidden;
@@ -155,12 +155,12 @@ container>p {
 
 .calculator--keys>* {
     background-image: linear-gradient(to bottom, #ffffff, #0059ff);
-    padding: 0.4em 0.45em;
+    padding: 0.4em 1.45em;
     position: relative;
     text-align: center;
     color: #2f4f42;
     margin-bottom: 30px;
-    margin-left: 18px;
+    margin-left: 30px;
     margin-right: 18px;
     border-radius: 10px;
 
@@ -185,8 +185,8 @@ container>p {
 .primeiroValor,
 .seg-Valor,
 .result {
-    color: #006400;
-    font-size: 23px;
+    color: #363636;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     padding: 0.2em 0.2em;
     font-weight: bold;
@@ -206,9 +206,11 @@ container>p {
 .cont--segValor {
     background-color: aliceblue;
     padding-left: 15px;
-    padding-right: 80px;
+    padding-right: 45px;
     border: 2px solid gray;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    display: block;
 }
 
 
@@ -217,7 +219,7 @@ container>p {
 
 .key--equals {
     background-image: linear-gradient(to bottom, #FA8072, #F4A460);
-    grid-column: -2;
+    grid-column: -4;
     grid-row: 1.2 /span 4;
     color: #2f4f42;
 }
