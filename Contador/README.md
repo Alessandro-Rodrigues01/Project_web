@@ -7,9 +7,12 @@ O programa funciona com base na contagem escolhida pelo usuário, se o usuário 
 Campo intervalo, se não for preenchido o programa reconhece como intervalo de 1 em 1.
 
 
-## Layout web
-![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Calculadora/assets/calc-tela1.png)
+## Layout web contando progressivo
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Contador/assets/contador-progressivo.png)
 
+
+## Layout web contando regressivo
+![Web 1](https://github.com/Alessandro-Rodrigues01/Project_web/blob/main/Contador/assets/contador-regressivo.png)
 
 
 
